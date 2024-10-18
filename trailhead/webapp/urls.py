@@ -4,5 +4,6 @@ from . import views
 
 # list of our paths
 urlpatterns = [
-    path("", views.home, name ="home") #this is an empty path to the base URL of our website
+    path("", views.home, name ="home"), #this is an empty path to the base URL of our website
+    path("todos/", views.todos, name = "Todos")
 ]
