@@ -8,6 +8,13 @@ Our group is interested in learning more about dev with Django, so we watched th
 
 ## Setup
 
+We are using a virtual environment, to get that set up, we used these commands: 
+` pip install virtualenv `
+`python -m venv myenv`
+Then to activate: 
+`source myenv/bin/activate `
+To install Django: 
+`pip install django`
 In order to initialize a Django project within this repo, run this command: 
 ` django-admin startproject trip_planner_backend`
 Next, to set up a virtual environment for Python related dependencies and the djangorestframework, run this command: 
@@ -19,6 +26,8 @@ Then to run the server use this command:
 
 TODO: We will make a dependencies.txt file in which we will maintain all the dependecies this project requires so that we can run this script: 
 `pip install -r dependencies.txt` instead of running all of those pesky individual commands. 
+
+To get the server running: `python manage.py runserver`
 
 ## Authors
 
