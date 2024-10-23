@@ -29,6 +29,9 @@ TODO: We will make a dependencies.txt file in which we will maintain all the dep
 
 To get the server running: `python manage.py runserver`
 
+To be able to test the database: `python manage.py makemigrations                                            
+python manage.py migrate`
+
 ## Authors
 
 Ari Rojas
